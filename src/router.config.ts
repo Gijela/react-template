@@ -6,7 +6,7 @@ const routes = [
   {
     path: '/',
     label: '页面',
-    component: lazy(() => import('@/test/content')),
+    component: lazy(() => import('@/pages/testCopmonent/content')),
   },
   {
     path: 'content',
@@ -15,12 +15,12 @@ const routes = [
       {
         path: '2',
         label: '2',
-        component: lazy(() => import('@/test/content2')),
+        component: lazy(() => import('@/pages/testCopmonent/content2')),
       },
       {
         path: '3',
         label: '3',
-        component: lazy(() => import('@/test/content3')),
+        component: lazy(() => import('@/pages/testCopmonent/content3')),
       },
     ]
   },
@@ -31,12 +31,12 @@ const routes = [
       {
         path: '4',
         label: '4',
-        component: lazy(() => import('@/test/content4')),
+        component: lazy(() => import('@/pages/testCopmonent/content4')),
       },
       {
         path: '5',
         label: '5',
-        component: lazy(() => import('@/test/content5')),
+        component: lazy(() => import('@/pages/testCopmonent/content5')),
       },
     ]
   },
@@ -47,19 +47,19 @@ const routes = [
       {
         path: '6',
         label: '6',
-        component: lazy(() => import('@/test/content6')),
+        component: lazy(() => import('@/pages/testCopmonent/content6')),
       },
       {
         path: '7',
         label: '7',
-        component: lazy(() => import('@/test/content7')),
+        component: lazy(() => import('@/pages/testCopmonent/content7')),
       },
     ]
   },
   {
     path: 'test3',
     label: '页面4',
-    component: lazy(() => import('@/test/content7')),
+    component: lazy(() => import('@/pages/testCopmonent/content7')),
   },
 ]
 
