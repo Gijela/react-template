@@ -25,5 +25,14 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, 'src') 
     }
+  },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://www.fastmock.site/mock/4a611b718a8bd439b64640cdad77123f/test', // 配置接口地址
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
+      }
+    }
   }
 })
