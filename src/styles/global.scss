@@ -1,2 +1,14 @@
 // 全局样式变量可以写在这里
 $test: 0;
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
